@@ -1,0 +1,318 @@
+@media screen and (max-width: 2560px) and (min-width: 2095px) {
+    h1 {
+        font-size: 50pt;
+    } header > p {
+        padding: 10px;
+        width: 80%;
+        font-size: 35pt;
+    }
+    
+    container {
+        width: 100w;
+        margin-top: 1rem;
+    }container > a {
+        width: 50%;
+        margin-top: 2%;
+        margin-left: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }button {
+        margin: 0;
+        width: 100%;
+        font-size: 50pt;
+    }button:hover {
+        background-color: #1bac0e;
+        box-shadow: 0px 7px #127009;
+    }h2 {
+        margin-top: 20px;
+        margin-left: 25%;
+        width: 50%;
+        font-size: 70pt;
+        text-align: center;
+        font-family: 'Anton';
+        display: none;
+        
+    }h2 > .de{
+        font-size: 55pt;
+    }.garantia {
+        left: 78%;
+        top: 4rem;
+        width: 300px;
+    }.ebook {
+        width: 650px;
+        position: absolute;
+        top: 3rem;
+    }.sombra {
+        top: 14rem;
+        left: -40px;
+        width: 650px;
+    }.pagamento {
+        width: 40%;
+    }
+
+    footer {
+        margin-top: 30rem;
+        height: 12rem;
+    } footer > h3 {
+        width: 30%;
+        font-size: 23pt;
+    }
+}
+
+@media screen and (max-width: 2094px) and (max-width: 1440px) {
+    body {
+        background-image: url(../img/background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+        font-family: 'Lato';
+        color: white;
+    }
+    
+    header {
+        margin: 4rem;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    } h1 {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 30pt;
+    } header > p {
+        padding: 10px;
+        width: 80%;
+        font-size: 18pt;
+    }
+    
+    .area-video {
+        margin-top: -3rem;
+        margin-left: 20%;
+        width: 60%;
+        position: relative;
+        display: flex;
+    }.area-video > video {
+        width: 100%;
+        cursor: pointer;
+        box-shadow: 0px 5px 6px black;
+    }.area-video > img {
+        width: 30%;
+        position: absolute;
+        left: 36%;
+        top: 20%;
+        cursor: pointer;
+    }#pause {
+        display: none;
+        opacity: 95%;
+    }
+    
+    container {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 100w;
+    }container > a {
+        text-decoration: none;
+        width: 50%;
+        margin-left: 25%;
+    
+    }button {
+        color: white;
+        background-color: #1FC410;
+        border: none;
+        padding: .3rem;
+        width: 100%;
+        box-shadow: 0px 7px #15800B;
+        display: none;
+    
+        font-size: 25pt;
+        font-weight: bold;
+        font-family: 'Lato';
+        text-transform: uppercase;
+        border-radius: 30px;
+        text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.767);
+        cursor: pointer;
+    }button:hover {
+        background-color: #1bac0e;
+        box-shadow: 0px 7px #127009;
+    }h2 {
+        margin-top: 20px;
+        margin-left: 25%;
+        width: 50%;
+        font-size: 40pt;
+        text-align: center;
+        font-family: 'Anton';
+        display: none;
+        
+    }h2 > .de{
+        font-size: 38pt;
+    }.garantia {
+        left: 78%;
+        top: 4rem;
+        rotate: 10deg;
+        width: 190px;
+        position: absolute;
+    }.ebook {
+        width: 350px;
+        position: absolute;
+        top: 3rem;
+    }.sombra {
+        z-index: -1;
+        top: 8rem;
+        left: -60px;
+        width: 400px;
+        opacity: 80%;
+    }.pagamento {
+        width: 40%;
+        position: absolute;
+        top: 105%;
+        left: 30%;
+        display: none;
+    }
+    
+    footer {
+        background-color: rgba(7, 7, 7, 0.874);
+        height: 100px;
+        margin-top: 20rem;
+        display: flex;
+    
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    } footer > h3 {
+        width: 30%;
+        font-size: 12pt;
+        color: #2b2b2b;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 20pt;
+    } header > p {
+        font-size: 12pt;
+        width: 40rem;
+    }    
+        
+    button {
+        font-size: 15pt;
+        outline: none;
+    }
+
+    h2 {
+        font-size: 28pt;
+    } h2 > .de{
+        font-size: 24pt;
+    }.garantia {
+        top: 0rem;
+        width: 140px;
+    }.ebook {
+        width: 250px;
+        top: 0rem;
+        left: 3rem;
+    }.sombra {
+        top: 4rem;
+        left: 25px;
+        width: 250px;
+    }
+
+    footer {
+        margin-top: 10rem;
+        height: 80px;
+    } footer > h3 {
+        width: 400px;
+        font-size: 10pt;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .garantia {
+        top: 1rem;
+        width: 110px;
+    }.ebook {
+        width: 220px;
+        top: 1rem;
+        left: 1rem;
+    }.sombra {
+        top: 5rem;
+        left: -1em;
+        width: 250px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 705px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header {
+        margin: 0rem;
+    }
+
+    h1 {
+        font-size: 12pt;
+    } header > p {
+        font-size: 9pt;
+        width: 20rem;
+    }
+
+    .area-video {
+        margin-top: 0rem;
+        margin-left: 5%;
+        width: 90%;
+    }
+    container > a {
+        text-decoration: none;
+        width: 70%;
+        margin-left: 15%;
+    
+    }button {
+        width: 100%;
+        font-size: 10pt;
+        box-shadow: 0px 4px #15800B;
+    }button:hover {
+        box-shadow: 0px 4px #127009;
+    }
+
+    h2 {
+        margin-top: 15px;
+        margin-left: 25%;
+        width: 10rem;
+        font-size: 18pt;
+    } h2 > .de{
+        font-size: 14pt;
+    }.garantia {
+        top: 2.2rem;
+        left: 80%;
+        width: 60px;
+    }.ebook {
+        width: 200px;
+        top: 11rem;
+        left: 25%;
+    }.sombra {
+        top: 14.5rem;
+        left: 20%;
+        width: 200px;
+    }.pagamento {
+        width: 60%;
+        top: 110%;
+        left: 20%;
+    }
+
+    footer {
+        margin-top: 15rem;
+        height: 50px;
+    } footer > h3 {
+        font-size: 5pt;
+    }
+}
